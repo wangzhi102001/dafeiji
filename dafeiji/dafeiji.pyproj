@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="dafeiji.py" />
+    <Compile Include="game_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="setting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ship.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
