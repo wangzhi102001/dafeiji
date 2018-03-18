@@ -33,6 +33,8 @@ def check_key_down_events(event, ai_setting,screen, ship,bullets):
         ship.move_left = True
     elif event.key == pygame.K_SPACE:
         fire_bullet(ai_setting,screen,ship,bullets)
+    elif event.key == pygame.K_q:
+        sys.exit()
 
 
 def update_screen(ai_setting, screen, ship,bullets):
