@@ -5,6 +5,7 @@ import sys
 from bullet import Bullet
 
 
+
 # from ship import Ship
 def check_event(ai_setting,screen, ship,bullets):
     # 响应鼠标和键盘事件
@@ -37,13 +38,15 @@ def check_key_down_events(event, ai_setting,screen, ship,bullets):
         sys.exit()
 
 
-def update_screen(ai_setting, screen, ship,bullets):
+def update_screen(ai_setting, screen, ship,alien,bullets):
     # 更新屏幕数据
     screen.fill(ai_setting.bg_color)
     for bullet in bullets.sprites():
         bullet.draw_bullet()
 
     ship.bliteme()
+    alien.blitme()
+
     pygame.display.flip()
 
 def update_bullets(bullets):
