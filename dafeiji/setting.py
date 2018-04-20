@@ -7,7 +7,7 @@ class Setting():
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
         self.ship_speed_factor = 1
-        self.bullet_speed_factor = 5  #子弹射速
+        self.bullet_speed_factor = 3  #子弹射速
         self.bullet_width = 5   #子弹宽度
         self.bullet_height = 20  #子弹长度
         self.bullet_color = 60,60,60  #子弹颜色

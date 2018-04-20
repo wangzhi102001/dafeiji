@@ -93,7 +93,7 @@ def update_bullets(ai_setting, screen, ship, aliens, bullets):
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
-            # print(len(bullets))
+             #print(len(bullets))
     check_bullet_alien_collisons(ai_setting, aliens, bullets, screen, ship)
 
 
