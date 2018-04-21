@@ -1,4 +1,5 @@
 import pygame
+import random
 from pygame.sprite import Sprite
 
 
@@ -24,6 +25,10 @@ class Alien(Sprite):
     def update(self):
         self.x += self.ai_setting.alien_speed_factor * self.ai_setting.fleet_direction
         self.rect.x = self.x
+        
+        
+
+
 
     def check_edges(self):
         """如果外星人位于屏幕边缘，就返回TRUE"""

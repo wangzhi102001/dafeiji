@@ -1,12 +1,14 @@
 # -*- coding:utf-8 -*-
 import pygame
 from setting import Setting
+from pygame.sprite import Sprite
 
 
-class Ship():
+class Ship(Sprite):
     """control the ships in AI games"""
 
     def __init__(self, ai_setting, screen):
+        super(Ship,self).__init__()
         self.screen = screen
 
         self.image = pygame.image.load('images/ship1.bmp')  # 设置飞船图片
