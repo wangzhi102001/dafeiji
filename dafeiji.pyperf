@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>bd94de86-c4d2-4931-b558-04f448e39d1d</TargetProject>
+    <FriendlyName>dafeiji</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\wangz\AppData\Local\Temp\dafeiji_20180421.vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
