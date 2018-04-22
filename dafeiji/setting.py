@@ -39,6 +39,7 @@ class Setting():
         self.bullet_allowed = 5  # 最大子弹允许数量
         self.bullet_alien_allowed = 1   # 最大外星人子弹允许数量
         self.bullet_width = 5  # 子弹宽度
+        self.alien_bullet_height = 20 #外星人子弹长度
         self.fleet_direction = 1  # fleet_direction为1表示向右移，-1表示向左移
         self.alien_bullet_speed = 0.5 #外星人子弹射速
         self.ship_level = 1
